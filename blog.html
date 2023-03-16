@@ -10,16 +10,41 @@
 </head>
 <body>
     <section>
-        <h1 class="text-center text-4xl font-bold my-7">Differences between map,forEach,filter,find method of javascript</h1>
-        <div>
-            <div class="bg-rose-400 rounded-lg">
-                <h2 class="text-2xl ">map</h2>
-                <hr>
-                <p>The map method creates a new array with the results of calling a callback function on every element in the original array1. It does not modify the original array. The callback function receives three arguments: the current element, the current index and the original array.
+        <h1 class="text-center text-4xl font-bold my-10 ">Differences between map,forEach,filter,find method of javascript</h1>
+        <div class="grid grid-cols-2 gap-4 px-16 mb-10">
+            <div class="bg-rose-300 rounded-lg px-4 py-3">
+                <h2 class="text-2xl py-2">map</h2>
+                <hr class="border-white border-2">
+                <p class="py-2">The <b>map</b> method creates a new array with the results of calling a callback function on every element in the original array1. It does not modify the original array. The callback function receives three arguments: the current element, the current index and the original array.
                 </p>
             </div>
+            <div class="bg-blue-300 rounded-lg px-4 py-3">
+                <h2 class="text-2xl py-2">forEach</h2>
+                <hr class="border-white border-2">
+                <p class="py-2">The <b>forEach</b> method executes a callback function for each element in the original array1. It does not return anything. It also does not modify the original array unless you explicitly do so inside the callback function. The callback function receives three arguments: the current element, the current index and the original array.
+                </p>
+            </div>
+            <div class="bg-green-300 rounded-lg px-4 py-3">
+                <h2 class="text-2xl py-2">find</h2>
+                <hr class="border-white border-2">
+                <p class="py-2">The <b>find</b> method returns the first element in the original array that satisfies a testing function2. It does not modify the original array. If no element passes the test, it returns undefined. The testing function receives three arguments: the current element,the current index and the original array. 
+
+                </p>
+            </div>
+            <div class="bg-purple-300 rounded-lg px-4 py-3">
+                <h2 class="text-2xl py-2">filter</h2>
+                <hr class="border-white border-2">
+                <p class="py-2">The <b>filter</b> method creates a new array with all the elements in the original array that pass a testing function. It does not modify the original array. The testing function receives three arguments: the current element, the current index and the original array.
+
+
+                </p>
+            </div>
+            
+    
         </div>
     </section>
+
+    
     
 </body>
 </html>
