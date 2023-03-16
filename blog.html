@@ -44,7 +44,22 @@
         </div>
     </section>
 
-    
+    <section class="my-20">
+        <h1 class="text-center text-4xl font-bold my-10">What is Event Loop in javasript?</h1>
+        <p class="mx-16 bg-gray-300 rounded-lg px-16 py-10 font-semibold"> The event loop is a mechanism that allows JavaScript to execute code asynchronously and handle multiple events without blocking. It is responsible for executing the code, collecting and processing events, and executing queued sub-tasks. <br>
+
+            The event loop consists of three main components: <br>
+            
+            <b>A call stack</b>  that stores the functions that are currently being executed. The call stack operates on a last-in first-out (LIFO) principle: the last function pushed into the stack is the first one popped out when it returns. <br>
+            <b>A callback queue</b> that stores the functions that are waiting to be executed after some asynchronous operation (such as a timer, a network request or a user interaction) has completed. The callback queue operates on a first-in first-out (FIFO) principle: the first function pushed into the queue is the first one popped out when it is ready to be executed. This means that the order of the callbacks in the queue reflects the order of their registration.
+
+            <br>
+            <b>The browser API</b>  that provides various functions and objects that can perform asynchronous operations outside of the JavaScript engine. For example, the browser API includes the setTimeout function that can schedule a callback function to be executed after a certain delay. The browser API also includes the DOM manipulation methods, the XMLHttpRequest object and the fetch function that can make network requests.
+            </p>
+
+
+        <img src="https://i.ibb.co/nbQc6sk/Javascript-event-loop.png" alt="" class="mx-2 p-20">
+    </section>
     
 </body>
 </html>
