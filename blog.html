@@ -11,7 +11,7 @@
 <body>
     <section>
         <h1 class="text-center text-4xl font-bold my-10 ">Differences between map,forEach,filter,find method of javascript</h1>
-        <div class="grid grid-cols-2 gap-4 px-16 mb-10">
+        <div class="grid md:grid-cols-2 grid-cols-1 gap-4 md:px-16 px-6 mb-10">
             <div class="bg-rose-300 rounded-lg px-4 py-3">
                 <h2 class="text-2xl py-2">map</h2>
                 <hr class="border-white border-2">
@@ -43,10 +43,29 @@
     
         </div>
     </section>
+    <section>
+        <h1 class="text-center text-4xl font-bold my-10" >Differences among <span class="text-purple-600">local Storage</span>,<span class="text-rose-500"> Session Storage</span>,<span class="text-green-600">Coockies</span> </h1>
+        <div class="md:py-10 py-3 md:px-16 px:3 bg-gray-400 md:mx-10 mx-3 rounded-md">
+            <h1 class="text-xl px-3">Local Storage</h1>
+            <p class="md:pb-10 pb-4  px-3">LocalStorage is a data storage type of web storage. This allows the JavaScript sites and apps to store and access the data without any expiration date. This means that the data will always be persisted and will not expire.
+
+            </p>
+            <h1 class="text-xl  px-3">Session Storage</h1>
+            <p class="md:pb-10 pb-4  px-3">SessionStorage is similar to localStorage ; the difference is that while data in localStorage doesn't expire, data in sessionStorage is cleared when the page session ends.
+
+            </p>
+            <h1 class="text-xl  px-3">Coockies</h1>
+            <p class=" px-3">
+                Cookies are files created by websites that you go to. They save browsing information to make your online experience easier. With cookies, sites can keep you signed in, remember your site preferences, and give you locally relevant content.
+                
+                
+            </p>
+        </div>
+    </section>
 
     <section class="my-20">
         <h1 class="text-center text-4xl font-bold my-10">What is Event Loop in javasript?</h1>
-        <p class="mx-16 bg-gray-300 rounded-lg px-16 py-10 font-semibold"> The event loop is a mechanism that allows JavaScript to execute code asynchronously and handle multiple events without blocking. It is responsible for executing the code, collecting and processing events, and executing queued sub-tasks. <br>
+        <p class="md:mx-16 mx-3 bg-gray-300 rounded-lg md:px-16 px-4 py-10 font-semibold"> The event loop is a mechanism that allows JavaScript to execute code asynchronously and handle multiple events without blocking. It is responsible for executing the code, collecting and processing events, and executing queued sub-tasks. <br>
 
             The event loop consists of three main components: <br>
             
@@ -58,8 +77,22 @@
             </p>
 
 
-        <img src="https://i.ibb.co/nbQc6sk/Javascript-event-loop.png" alt="" class="mx-2 p-20">
+        <img src="https://i.ibb.co/nbQc6sk/Javascript-event-loop.png" alt="" class="mx-2 md:p-20">
     </section>
-    
+    <section class="md:my-10 my-4 space-y-8">
+        <h1 class="text-center text-4xl font-bold my-10">Works of some functions from noChange.js file</h1>
+        <div class="border-gray-200 border-2 rounded-sm md:px-16 px-3 md:mx-10 mx-2 md:py-6 py-2">
+            <h1 class="text-blue-600 text-xl italic">quizeTimer()</h1>
+            <p>quizTimer() function takes a parameter and if it is true then it will end the timer of interval, otherwise it will set 1 min interval to start another part of the code which counts the minutes, seconds and hours to calculate how much time the used is taking to complete the quiz and returns it.
+            </p>
+        </div>
+        <div class="border-gray-200 border-2 rounded-sm md:px-16 px-3 md:mx-10 mx-2 md:py-10 py-2">
+            <h1 class="text-blue-600 text-xl italic">chooseQuiz()</h1>
+            <p>chooseQuiz() is a function which takes given answer and index as a parameter and return the correct answer from the quiz and if the answer is equals to wrong then it added to the minus marks. whenever it finds the correct answer it pushes to the answer array and shows it late in the website.
+
+
+            </p>
+        </div>
+    </section>
 </body>
 </html>
